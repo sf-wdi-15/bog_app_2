@@ -169,7 +169,7 @@ Using the above routing pattern we'll write our first
 	`/config/routes.rb`
 
 		RouteApp::Application.routes.draw do
-			root to: 'creautres#index'
+			root to: 'creatures#index'
 			## Also just to keep it RESTful
 			get '/creatures', to: "creatures#index"
 		end
